@@ -1,0 +1,10 @@
+Rapport concernant l'état actuel du projet J-Confs
+--------------------------------------------------
+C'est un *outil de gestion de déplacement en conférence* pour les rechercheurs de l'université Paris-Dauphine.
+
+Le projet est développé depuis 2018. Il comprend *7 packages* dont un package provenant d'une librairie externe (Geocode).
+
+Cette année 
+
+
+
