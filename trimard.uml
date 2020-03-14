@@ -14,4 +14,12 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_L-ND8GXpEeqoZqknJMqDRg" name="say hellp" type="_JUXT4GXpEeqoZqknJMqDRg" association="_L-ILcGXpEeqoZqknJMqDRg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_L-ND8WXpEeqoZqknJMqDRg" name="user" type="_H-ZmgGXpEeqoZqknJMqDRg" association="_L-ILcGXpEeqoZqknJMqDRg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_w6qIoGXpEeqKCfcnUh_FQg" name="t">
+    <packagedElement xmi:type="uml:Class" xmi:id="_yb__kGXpEeqKCfcnUh_FQg" name="Class1">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zzDSEGXpEeqKCfcnUh_FQg" name="Property1"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_08hbkGXpEeqKCfcnUh_FQg" name="Operation2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_24IzsGXpEeqKCfcnUh_FQg" name="Class2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__ezHgGXpEeqKCfcnUh_FQg" name="Class6"/>
 </uml:Model>
