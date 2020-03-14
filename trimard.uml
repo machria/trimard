@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_MofMgGXoEeqKCfcnUh_FQg" name="trimard">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_MofMgGXoEeqKCfcnUh_FQg" name="trimard">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_MpKh8GXoEeqKCfcnUh_FQg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_GDOTQGXpEeqoZqknJMqDRg" name="Use_case">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_JUXT4GXpEeqoZqknJMqDRg" name="Say hellp"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_H-ZmgGXpEeqoZqknJMqDRg" name="User"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_L-ILcGXpEeqoZqknJMqDRg" memberEnd="_L-ND8GXpEeqoZqknJMqDRg _L-ND8WXpEeqoZqknJMqDRg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L-JZkGXpEeqoZqknJMqDRg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L-JZkWXpEeqoZqknJMqDRg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_L-ND8GXpEeqoZqknJMqDRg" name="say hellp" type="_JUXT4GXpEeqoZqknJMqDRg" association="_L-ILcGXpEeqoZqknJMqDRg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_L-ND8WXpEeqoZqknJMqDRg" name="user" type="_H-ZmgGXpEeqoZqknJMqDRg" association="_L-ILcGXpEeqoZqknJMqDRg"/>
+  </packagedElement>
 </uml:Model>
