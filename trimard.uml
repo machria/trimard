@@ -6,12 +6,17 @@
   <packagedElement xmi:type="uml:Interaction" xmi:id="_GDOTQGXpEeqoZqknJMqDRg" name="Use_case">
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_JUXT4GXpEeqoZqknJMqDRg" name="Say hellp"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_H-ZmgGXpEeqoZqknJMqDRg" name="User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_H-ZmgGXpEeqoZqknJMqDRg" name="User">
+    <generalization xmi:type="uml:Generalization" xmi:id="_0yt_UGXpEeqoZqknJMqDRg" general="_yqHUEGXpEeqoZqknJMqDRg"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_L-ILcGXpEeqoZqknJMqDRg" memberEnd="_L-ND8GXpEeqoZqknJMqDRg _L-ND8WXpEeqoZqknJMqDRg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L-JZkGXpEeqoZqknJMqDRg" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L-JZkWXpEeqoZqknJMqDRg" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_L-ND8GXpEeqoZqknJMqDRg" name="say hellp" type="_JUXT4GXpEeqoZqknJMqDRg" association="_L-ILcGXpEeqoZqknJMqDRg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_L-ND8WXpEeqoZqknJMqDRg" name="user" type="_H-ZmgGXpEeqoZqknJMqDRg" association="_L-ILcGXpEeqoZqknJMqDRg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_wK5foGXpEeqoZqknJMqDRg" name="Deuxiemediagramme">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_yqHUEGXpEeqoZqknJMqDRg" name="sayaurevoir"/>
   </packagedElement>
 </uml:Model>
