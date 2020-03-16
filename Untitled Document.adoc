@@ -1,0 +1,30 @@
+current package
+---------------
+
+the GUI package is made up of 5 classes 
+
+Guiconference
+~~~~~~~~~~~~
+ it represents the interface for entering conferences by researcher who should enter his information (login, name, surname..., this information can be retrieved just with the login of the researcher thanks to the class researcher.ResearcherBuilder), then enter the information about the conference (place, start date and end date)
+
+GuiListConferences
+~~~~~~~~~~~~~~~~~~
+it allows to display the different conferences of a researcher and the possibility to make a change on a conference thanks to the method of the class conference.ConferenceWriter.
+
+geopoint
+~~~~~~~~
+represents a point with name, longitude and latitude
+
+pathstep
+~~~~~~~~
+represents a path with a starting point and an arrival point with a means of transport.
+
+To do
+-----
+
+map package
+~~~~~~~~~~
+* add a price, a start date and return date in the pathstep class and a display method, and thanks to an API we calculate the price of the trip between the two points and with the means of transport that already exists as attribute and the two dates, with the display function we display the itinerary.
+
+* create a path class which will contain a departure location, an arrival location which is the conference location and a list of pathsteps, each ending where the next one begins, each beginning after the end date of the previous one, and beginning at the departure location and ending at the conference location, a price which will be the minimum between the sum of the pathstep prices and the price of the direct route. 
+
