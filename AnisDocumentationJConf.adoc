@@ -1,0 +1,45 @@
+Conference and document packages
+-------------------------
+
+
+Conference Package
+~~~~~~~~~~~~~~~~~ 
+
+This package groups together classes allowing to manage conferences as its name indicates. 
+Indeed it contains the classes allowing to create conferences. 
+For exemple : 
+* The conferenceReader class for example which reads information from a calendar file and creates a conference object.
+* The conference class defines what a conference is with its attributes and constructor.
+* The Retriever interface reads conference data and return a set of conferences.
+* The conferenceShower class show Conferences data.
+* The conferenceWriter class Delete the conference of the ics file (if it exists), Add the conference in the ics file file (if it exists) and Save the given conference in the ics File. 
+* The invalidConferenceFormatException class custom exception use for a conference creation.
+
+
+Package Document
+~~~~~~~~~~~~~~~~~~
+Ce package s'occupe principalement de gérer des ordres de missions.
+Par exemple : 
+* The generateOM class fills a searcher Mission Order.
+* The generateOMYS class fills a searcher Mission Order but for a young searcher.
+* The MissionOrder class generate a spreed sheet document about a mission order.
+
+
+To do for improvement
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In the Document and Conference packages, there are some changes to be made to improve the code, make it "cleaner", improve functions or remove unnecessary things.
+There are for example : 
+* Delete the conferencesRetriever class which allows to generate a conference list from entered data. But we could, instead of dedicating a whole class to this part, simply implement it in another class.
+* Investigate the existence of a more modern API for manipulating OpenDocument documents. We are therefore studying the different existing solutions in order to choose the one that would best suit our project.
+* Set up the generation and storage of the Mission Order (OM) or JC request. If one already exists, it goes into the history. We could add a JC class and put generate and store functions in it and possibly add attriubuts. We would have to add a store function in generateOM and generateOMYS. We're also thinking about storing everything on git.	
+* Extract a specialized program dealing with LibreOffice document generation and create its own GitHub repository. To do so, you would have to create a new class containing this program. I've already created a github repository and let's think about it.
+* Complexify the recording of a prize. Indeed, we would like to complicate the registrationFee attribute which concerns the management of prizes. We will have to make this attribute take into account as a parameter a researcher who will return a prize depending on the status of the person who reserves and the reservation period.
+
+
+
+
+
+
+
+
